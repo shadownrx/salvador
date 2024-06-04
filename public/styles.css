@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  .competitors {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+  
+  .competitor-btn {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    background-color: #fff;
+    font-size: 16px;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s, border-color 0.3s;
+  }
+  
+  .competitor-btn:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .resultados {
+    margin-top: 20px;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    background-color: #f0f0f0;
+  }
+  
+  .tabla {
+    margin-top: 30px;
+  }
+  
+  #tabla-votos {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  #tabla-votos th,
+  #tabla-votos td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  #tabla-votos th {
+    background-color: #f2f2f2;
+  }
+  
+  #tabla-votos tr:hover {
+    background-color: #f2f2f2;
+  }
+  

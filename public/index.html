@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Votaciones</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.socket.io/4.1.2/socket.io.min.js"></script>
+</head>
+<body>
+    <h1>Votaciones</h1>
+    <div class="container">
+        <div class="competitors">
+            <button class="competitor-btn" id="shoshua">Shoshua vs Eso Tilin</button>
+            <button class="competitor-btn" id="Turco"> El turko Malek vs El pulpo Boy</button>
+            <button class="competitor-btn" id="Chino"> El chino Hamada vs Nicolas</button>
+            <button class="competitor-btn" id="Lucas"> Lucas Mj vs Lautaro cuchi</button>
+            
+        </div>
+        <div class="resultados" id="resultados">
+            <!-- Aquí mostraremos los competidores más votados -->
+        </div>
+        <div class="tabla">
+            <h2>Votos</h2>
+            <table id="tabla-votos">
+                <tr>
+                    <th>Competidor</th>
+                    <th>Votos</th>
+                    <th>Eliminar Voto</th>
+                </tr>
+                <!-- Las filas de la tabla se agregarán dinámicamente con JavaScript -->
+            </table>
+        </div>
+        <div class="mas-votados">
+            <h2>Competidores más votados</h2>
+            <ul id="mas-votados-list">
+                <!-- Los competidores más votados se agregarán dinámicamente con JavaScript -->
+            </ul>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
